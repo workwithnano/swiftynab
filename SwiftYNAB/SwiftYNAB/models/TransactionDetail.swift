@@ -61,6 +61,9 @@ public struct TransactionDetail: Codable, Equatable {
     /// Import id
     public let importId: String?
 
+    /// Import original payee name
+    public let importPayeeNameOriginal: String?
+
     /// Whether or not the transaction has been deleted
     public let deleted: Bool
 
